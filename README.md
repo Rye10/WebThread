@@ -6,4 +6,9 @@
 在onCreate初始化Hanlder并重写handleMessage方法<br>
 在WebThread中获取的数据，sendMessage传递回UI  在MainActivity中  MainActivity.handler.sendMessage(msg);<br>
 <br>
+
+
+static 相当于全局可调用该变量
+调用方法  类名.静态变量名.方法
+
 参考：http://blog.csdn.net/a591193965/article/details/49950915<br>
