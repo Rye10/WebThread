@@ -5,6 +5,7 @@
 主要在在UI线程中定义静态的Handler      public static Handler handler;<br>
 在onCreate初始化Hanlder并重写handleMessage方法<br>
 在WebThread中获取的数据，sendMessage传递回UI  在MainActivity中  MainActivity.handler.sendMessage(msg);<br>
+在webthread中无法更新UI，listview无法显示数据，只能在主线程更新<br>
 <br>
 
 
